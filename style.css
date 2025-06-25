@@ -1,0 +1,74 @@
+body{
+    background-color: #f2dff2 !important;
+}
+
+.navbar {
+  background-color: darkmagenta;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 10px;
+}
+
+.logo {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#title {
+  color: #d3aad2;
+  display: flex;
+  margin-top: -2px;
+}
+
+.titlepart {
+  color: white;
+}
+
+#btn1{
+    background-color: #f2dff2;
+    outline: 1px solid black;
+    
+}
+
+#btn2{
+    background-color: #f2dff2;
+    outline: 1px solid black;
+}
+
+#btn3{
+    background-color: #f2dff2;
+    outline: 1px solid black;
+}
+
+.navdropdown {
+  background-color: rgb(246, 243, 243);
+  display: flex;
+  align-items: right;
+  justify-content: end;
+  border-radius: 8%;
+}
+
+.card {
+  width: 30%;
+}
+
+#subtitlebox{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+
+}
+
+.cardholder {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    
+    
+}

@@ -1,0 +1,108 @@
+body {
+  background-color: #f0efd9 !important;
+}
+
+.navbar {
+  background-color: #004d4d;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 10px;
+}
+
+.logo {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#title {
+  color: rgb(230, 229, 196);
+  display: flex;
+  margin-top: -2px;
+  font-weight: bold;
+}
+
+.titlepart {
+  color: white;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  background-color: rgb(218, 216, 169);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  outline: 1px solid black;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  background-color: #c2bc88;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navdropdown {
+  background-color: rgb(246, 243, 243);
+  display: flex;
+  align-items: right;
+  justify-content: end;
+  border-radius: 8%;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 30%;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.breakline {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#subtitlebox {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #242424;
+  text-align: center;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cardholder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.pagecontainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto; /* pushes footer to the bottom */
+  padding: 0.5rem;
+  text-align: left;
+  background-color: rgb(188, 186, 135);
+  color: #242424;
+}
+
+.footertext {
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
